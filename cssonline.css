@@ -1,0 +1,90 @@
+body
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-style:normal;
+	font-weight:bold;
+	text-align:center;
+	margin:auto;
+	width:800px;
+	box-shadow:1px;
+}
+#banner
+{
+	background-color:#00F;
+	height:100px;
+	
+}
+#menu
+{
+	background-color:#0FF;
+	margin:0px 0px 0px 0px;
+	height:40px;
+	line-height:40px;
+	
+}
+#menu ul
+{
+	list-style-type:none;/*bỏ dấu chấm tròn của thẻ danh sách*/
+	padding:0px;
+	margin-top:0px;
+	
+}
+#menu ul li
+{
+	float:left;
+	width:200px;
+}
+#menu ul li a
+{
+	text-decoration:none;/*bỏ gạch chân của link khi chưa có chuột đưa vào*/
+}
+#menu ul li a:hover
+{
+	color:#F0F;
+	text-decoration:underline;/*gạch chân khi đưa chuột vào*/
+}
+#submenu li
+{
+	width:200px;
+	height:auto;
+	
+	text-align:center;
+}
+
+#submenu
+{
+	display:none;/*ẩn menu con*/
+	position: absolute;
+	z-index: 90;/*menu con nỗi lên li cố định */
+	background-color: #0FF;
+	left: 673px;
+	top: 162px;
+	width: 200px;
+	
+}
+
+#menu li:hover #submenu
+{
+	display:block;/*hiện menu con khi hover dưới dạng dọc xuống*/
+}
+
+#ND
+{
+	background-color:#F6F;
+	height:900px;
+}
+#BANQUYEN
+{
+	color:#FFF;
+	background-color:#000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:normal;
+	text-align:justify;
+	font-weight:normal;
+	/*height:10px;
+	padding:10px;*/
+	padding-top:0px;
+	font-size:14px;
+
+}
