@@ -10,35 +10,7 @@
 	box-shadow:1px;
 }
 
-#menu
-{
-	background-color: LightGray;
-	margin:0px 0px 0px 0px;
-	height:40px;
-	line-height:40px;
-	
-}
-#menu ul
-{
-	list-style-type:none;/*bỏ dấu chấm tròn của thẻ danh sách*/
-	padding:0px;
-	margin-top:0px;
-	
-}
-#menu ul li
-{
-	float:left;
-	width:200px;
-}
-#menu ul li a
-{
-	text-decoration:none;/*bỏ gạch chân của link khi chưa có chuột đưa vào*/
-}
-#menu ul li a:hover
-{
-	color:#F0F;
-	text-decoration:underline;/*gạch chân khi đưa chuột vào*/
-}
+
 #table
 {
 	text-align: justify;
@@ -55,15 +27,4 @@ caption
 	background-color: LightGray;
 	height:900px;
 }
-#BANQUYEN
-{
-	color:#FFF;
-	background-color:#000;
-	font-family:Arial, Helvetica, sans-serif;
-	font-style:normal;
-	text-align:justify;
-	font-weight:normal;
-	padding-top:0px;
-	font-size:14px;
 
-}
